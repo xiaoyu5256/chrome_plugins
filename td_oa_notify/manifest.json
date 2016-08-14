@@ -1,0 +1,16 @@
+{
+    "name": "通达OA消息提醒",
+    "manifest_version": 2,
+    "version": "1",
+    "description": "通达OA消息提醒",
+    "icons": {
+        "16": "images/16.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+    },
+    "permissions": ["tabs","notifications","<all_urls>"],
+    "web_accessible_resources": [
+        "images/48.png"
+    ],
+    "background": { "scripts": ["background.js"] }
+}
