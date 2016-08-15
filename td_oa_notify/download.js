@@ -10,7 +10,6 @@
   }
 
   function add_download_btn($menu){
-    var $menu = document.getElementById('attach_5308943d_menu');
     var readBtnHtml = $menu.firstChild.outerHTML;
     var doc_url = readBtnHtml.match(/.*<a.*onclick=\"window.open\(\'\/module\/OC\/(.*).\'read.*/)[1];
     var $downloadBtn;
