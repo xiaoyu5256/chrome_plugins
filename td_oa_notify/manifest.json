@@ -12,5 +12,11 @@
     "web_accessible_resources": [
         "images/48.png"
     ],
-    "background": { "scripts": ["background.js"] }
+    "background": { "scripts": ["background.js"] },
+    "content_scripts": [
+        {
+            "matches": ["http://10.10.100.200/general/notify/show/read_notify.php*"],
+            "js": ["download.js"]
+        }
+    ]
 }
